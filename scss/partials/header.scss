@@ -1,0 +1,31 @@
+body {
+  background: #FFD011;
+  min-height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+
+  h1{
+    margin: 0;
+    color: #FDFDFB;
+    max-width: 30%;
+    font-size: 80px;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    display: inline;
+  }
+
+  img {
+    max-height: 300px;
+    border-radius: 50%;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
