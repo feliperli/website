@@ -1,7 +1,10 @@
 body {
+  margin: 0;
+  font-family: 'Montserrat'; }
+
+header {
   background: #FFD011;
   min-height: 100vh;
-  max-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -14,19 +17,18 @@ body {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center; }
-  body h1 {
+  header h1 {
     margin: 0 0 10 0;
     color: #FDFDFB;
     max-width: 50%;
     font-size: 40px;
-    font-family: 'Montserrat';
     font-weight: bold;
     text-align: center; }
-  body img {
+  header img {
     max-height: 150px;
     -webkit-border-radius: 50%;
     border-radius: 50%; }
-  body .wrapper {
+  header .wrapper {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -45,11 +47,11 @@ body {
     -ms-flex-pack: center;
     justify-content: center; }
   @media (min-width: 768px) {
-    body h1 {
+    header h1 {
       font-size: 70px; }
-    body img {
+    header img {
       max-height: 300px; }
-    body .wrapper {
+    header .wrapper {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -62,3 +64,39 @@ body {
       -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
       justify-content: space-around; } }
+
+.about {
+  background: #D18C13;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .about h2 {
+    color: #FDFDFB;
+    font-size: 40px; }
+  .about p {
+    color: #FDFDFB;
+    font-size: 15px;
+    text-align: justify;
+    max-width: 70%;
+    font-weight: 600; }
+  @media (min-width: 360px) {
+    .about h2 {
+      font-size: 50px; }
+    .about p {
+      font-size: 18px; } }
+  @media (min-width: 768px) {
+    .about h2 {
+      font-size: 80px; }
+    .about p {
+      font-size: 2rem; } }

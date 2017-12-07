@@ -1,7 +1,6 @@
-body {
+header {
   background: #FFD011;
   min-height: 100vh;
-  max-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,7 +10,6 @@ body {
     color: #FDFDFB;
     max-width: 50%;
     font-size: 40px;
-    font-family: 'Montserrat';
     font-weight: bold;
     text-align: center;
   }

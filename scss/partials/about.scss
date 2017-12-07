@@ -1,0 +1,39 @@
+.about {
+  background: #D18C13;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  h2 {
+    color: #FDFDFB;
+    font-size: 40px;
+  }
+
+  p {
+    color: #FDFDFB;
+    font-size: 15px;
+    text-align: justify;
+    max-width: 70%;
+    font-weight: 600;
+  }
+
+  @media (min-width: 360px) {
+    h2 {
+      font-size: 50px;
+    }
+    p{
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    h2 {
+      font-size: 80px;
+    }
+
+    p {
+      font-size: 2rem;
+    }
+  }
+}
