@@ -1,63 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Felipe Inocencio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/9736431b0d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <div class="wrapper">
-        <h1>OI, EU SOU O FELIPE</h1>
-        <img src="images/eu.jpg" alt="Foto de Felipe Inocencio">
-      </div>
-    </header>
+    <div class="index">
+      <header class="nav">
+        <div class="nav__wrapper">
+            <a class="nav__link" href="/">
+              <span class="nav__link__title">Felipe Inocencio</span>
+            </a>
+          </div>
+          <div class="nav__wrapper">
+            <a class="nav__link" href="https://codepen.io/feliperli">
+              <span class="nav__link__common">Portfólio</span>
+            </a>
+            <a class="nav__link" href="/">
+              <span class="nav__link__border">Blog</span>
+            </a>
+          </div>
+      </header>
 
-    <section class="about">
-      <h2>Sobre mim</h2>
-      <p>Sou aluno na Fatec Sorocaba e tenho interesse em desenvolvimento Web. Recentemente comecei a aventurar no
-      ReactJS, além de já ter mexido um pouco com AngularJS em alguns projetos open-source. Gosto de contribuir
-      para a comunidade local (sou de Sorocaba), ajudando a organizar alguns eventos na região. Em open-source, vale
-      a pena destacar o Entrylvl, Kemily e o site da semana de tecnologia da Fatec Sorocaba.</p>
-    </section>
+      <section class="about">
+          <img src="images/eu.jpg" alt="Foto de Felipe Inocencio" />
+          <div class="info__wrapper">
+            <h1 class="info__wrapper__name">Oi, sou Felipe</h1>
+            <h2 class="info__wrapper__about">
+              Desenvolvedor fullstack, apaixonado por front-end, trabalhando
+              atualmente com Javascript e Salesforce. Comecei um blog tecnico recentemente, 
+              só clicar ali em cima e talvez a gente possa aprender
+              algo novo juntos :)
+            </h2>
+          </div>
+      </section>
 
-    <section class="skills">
-      <h2>Habilidades</h2>
-      <ul>
-        <li>
-          <img src="images/js.png" alt="Javascript">
-        </li>
-        <li>
-          <img src="images/react.png" alt="ReactJs">
-        </li>
-        <li>
-          <img src="images/postgres.png" alt="Postgres">
-        </li>
-        <li>
-          <img src="images/sass.png" alt="Sass">
-        </li>
-        <li>
-          <img src="images/mongo.png" alt="MongoDB">
-        </li>
-        <li>
-          <img src="images/git.png" alt="Git">
-        </li>
-        <li>
-          <img src="images/angularjs.svg" alt="AngularJs">
-        </li>
-        <li>
-          <img src="images/webpack.png" alt="Webpack">
-        </li>
-      </ul>
-    </section>
-    <section class="contact">
-      <h2>Vamos trabalhar juntos!</h2>
-      <form action="https://formspree.io/feliperli@hotmail.com" method="POST">
-        <input name="email" placeholder="email@exemplo.com"/>
-        <textarea name="text" placeholder="Oferta de emprego? Procurando freelancer? Me mande uma mensagem! :D"></textarea>
-        <button>Enviar</button>
-      </form>
-    </section>
+      <footer class="footer">
+        <a href="https://github.com/mightyjimmy9"><span class="fa fa-github fa-2x"/></a>
+        <a href="https://www.linkedin.com/in/feliperli/"><span class="fa fa-linkedin fa-2x"/></a>
+        <a href="mailto:feliperli@hotmail.com"><span class="fa fa-envelope fa-2x"/></a>
+      </footer >
+    </div>
   </body>
 </html>
