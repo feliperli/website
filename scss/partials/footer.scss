@@ -1,0 +1,8 @@
+footer {
+  padding: 1rem;
+  :nth-child(n) {
+    margin: 0 3px;
+    text-decoration: none;
+    color: black;
+  }
+}
