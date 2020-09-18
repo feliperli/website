@@ -1,12 +1,6 @@
-# Portfolio
+# My website
 
-## List of things to put in my Portfolio
+Hey! This is my website! It's just a prototype, really, but thrust me: this is a better version than the previous one :)
+Hope you enjoy it!
 
-Header with a introduction like: "Hi, I'm Felipe", a picture of mine
-
-Scroll with effect like Neon Bank
-
-My skills (javascript, angular, etc)
-Projects
-
-A contact section
+[Click here](https://mightyjimmy9.github.io/website/)
